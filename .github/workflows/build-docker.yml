@@ -83,6 +83,8 @@ jobs:
           tags: |
             crpi-57oouj3y2fpxfp6n.cn-guangzhou.personal.cr.aliyuncs.com/container-repositories/pmhq:${{ steps.get_version.outputs.version }}
             crpi-57oouj3y2fpxfp6n.cn-guangzhou.personal.cr.aliyuncs.com/container-repositories/pmhq:latest
+          provenance: false
+          sbom: false
 
       - name: Output build summary
         run: |
