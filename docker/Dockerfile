@@ -1,4 +1,4 @@
-FROM linyuchen/qq:latest
+FROM  crpi-57oouj3y2fpxfp6n.cn-guangzhou.personal.cr.aliyuncs.com/container-repositories/qq:latest
 
 ARG TARGETARCH
 ARG PMHQ_VERSION
